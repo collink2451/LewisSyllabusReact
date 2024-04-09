@@ -26,7 +26,7 @@ function Syllabus() {
 
     return (
         <Container>
-            {syllabus === undefined ? undefined :
+            {syllabus === undefined ? <h2>Loading...</h2> :
                 <>
                     <SyllabusHeader section={syllabus} />
                     <InstructorInformation instructor={syllabus?.instructor} />
