@@ -15,9 +15,11 @@ function ValueListRow({ label, value }: Readonly<ValueListRowProps>) {
             <tr>
                 <td></td>
                 <td colSpan={2} className="justify-content-left">
-                    <ol>
-                        {value?.map((v, index) => <li value={v[0]} key={index}>{v[1]}</li>)}
-                    </ol>
+                    {value === undefined || value.length === 0 ? <i>None</i> :
+                        <ol>
+                            {value?.map((v, index) => <li value={v[0]} key={index}>{v[1]}</li>)}
+                        </ol>
+                    }
                 </td>
             </tr>
         </>

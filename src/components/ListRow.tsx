@@ -15,9 +15,11 @@ function ListRow({ label, value }: Readonly<ListRowProps>) {
             <tr>
                 <td></td>
                 <td colSpan={2} className="justify-content-left">
-                    <ol>
-                        {value?.map((v, index) => <li key={index}>{v}</li>)}
-                    </ol>
+                    {value === undefined || value.length === 0 ? <i>None</i> :
+                        <ol>
+                            {value?.map((v, index) => <li key={index}>{v}</li>)}
+                        </ol>
+                    }
                 </td>
             </tr>
         </>
