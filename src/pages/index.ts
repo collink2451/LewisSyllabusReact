@@ -5,4 +5,3 @@ import PageNotFound from "./PageNotFound";
 import Syllabus from "./Syllabus";
 
 export { ErrorPage, Forbidden, Home, PageNotFound, Syllabus };
-

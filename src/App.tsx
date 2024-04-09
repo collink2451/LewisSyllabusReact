@@ -2,13 +2,7 @@ import React, { useEffect } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Main } from "./modules";
-import {
-  ErrorPage,
-  Forbidden,
-  Home,
-  PageNotFound,
-  Syllabus,
-} from "./pages";
+import { ErrorPage, Forbidden, Home, PageNotFound, Syllabus } from "./pages";
 import { PublicRoute } from "./routes";
 import { GlobalStyle } from "./styles";
 import { addWindowClass } from "./utils";

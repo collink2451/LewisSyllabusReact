@@ -4,23 +4,21 @@ import { Outlet } from "react-router-dom";
 
 function Main() {
   return (
-    <>
-      <div className="wrapper">
-        {(
-          <>
-            {/* <Header /> */}
-            {/* <Sidebar /> */}
-            <div className="content-wrapper pb-4">
-              <div className="pt-3" />
-              <section className="content">
-                <Outlet />
-              </section>
-            </div>
-            {/* <Footer /> */}
-          </>
-        )}
-      </div>
-    </>
+    <div className="wrapper">
+      {
+        <>
+          {/* <Header /> */}
+          {/* <Sidebar /> */}
+          <div className="content-wrapper pb-4">
+            <div className="pt-3" />
+            <section className="content">
+              <Outlet />
+            </section>
+          </div>
+          {/* <Footer /> */}
+        </>
+      }
+    </div>
   );
 }
 

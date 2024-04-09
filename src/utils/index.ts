@@ -1,9 +1,3 @@
-import {
-    addWindowClass,
-    removeWindowClass,
-} from "./helpers";
+import { addWindowClass, removeWindowClass } from "./helpers";
 
-export {
-    addWindowClass,
-    removeWindowClass
-};
+export { addWindowClass, removeWindowClass };
