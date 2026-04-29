@@ -7,7 +7,6 @@ React/TypeScript frontend that displays course syllabus information for Lewis Un
 - Browse all available CSCI course sections
 - View full syllabus details: course info, instructor info, section header, descriptions
 - Protected routes (requires login)
-- Hosted on Azure Static Web Apps
 
 ## Tech Stack
 
@@ -16,7 +15,6 @@ React/TypeScript frontend that displays course syllabus information for Lewis Un
 - **Routing:** React Router
 - **UI:** React Bootstrap, styled-components
 - **HTTP:** Axios
-- **Deployment:** Azure Static Web Apps
 
 ## Setup
 
@@ -53,4 +51,4 @@ The app will be available at `http://localhost:3000`.
 
 ## Deployment
 
-Deploy to **Azure Static Web Apps** using the included `staticwebapp.config.json`.
+Run `npm run build` and serve the `build/` directory with any static hosting provider or web server.
