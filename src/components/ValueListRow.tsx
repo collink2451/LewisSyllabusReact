@@ -3,7 +3,7 @@ import React from "react";
 
 interface ValueListRowProps {
   label: string | undefined;
-  value: string[][] | undefined;
+  value: (string | number)[][] | undefined;
 }
 
 function ValueListRow({ label, value }: Readonly<ValueListRowProps>) {
