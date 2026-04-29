@@ -1,6 +1,6 @@
-# Lewis Syllabus
+# Syllabus Client
 
-React/TypeScript frontend that displays course syllabus information for Lewis University computer science classes. Fetches class, section, and instructor data from the [Lewis-Syllabus-Server](../Lewis-Syllabus-Server) backend.
+React/TypeScript frontend that displays course syllabus information for Lewis University computer science classes. Fetches class, section, and instructor data from the [syllabus-server](../syllabus-server) backend.
 
 ## Features
 
@@ -21,7 +21,7 @@ React/TypeScript frontend that displays course syllabus information for Lewis Un
 ### Requirements
 
 - Node.js 18+
-- A running [Lewis-Syllabus-Server](../Lewis-Syllabus-Server) instance
+- A running [syllabus-server](../syllabus-server) instance
 
 ### Installation
 
@@ -39,7 +39,7 @@ npm start
 
 The app will be available at `http://localhost:3000`.
 
-> The API base URL is configured in the source — update it to point to your local Lewis-Syllabus-Server if needed.
+> The API base URL is configured in the source — update it to point to your local syllabus-server if needed.
 
 ## Scripts
 
