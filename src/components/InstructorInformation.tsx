@@ -15,9 +15,9 @@ function InstructorInformation({ instructor }: Readonly<InstructorInformationPro
         <SectionHeader title="Instructor Information" label="I" />
 
         <InformationRow label="Instructor’s Name" value={instructor.name} />
-        <InformationRow label="Office Hours" value={instructor.officeHours} />
+        <InformationRow label="Office Hours" value={instructor.office_hours} />
         <InformationRow label="Lewis Office Location" value={instructor.office} />
-        <InformationRow label="Appointments" value={instructor.appointmentInfo} />
+        <InformationRow label="Appointments" value={instructor.appointment_info} />
         <InformationRow label="Lewis Email" value={instructor.email} />
         <InformationRow label="Lewis Phone Number" value={instructor.phone} />
       </tbody>

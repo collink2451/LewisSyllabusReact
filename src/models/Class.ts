@@ -1,21 +1,23 @@
 export default class Class {
+  id = 0;
+
+  course_code = "";
+
   name = "";
 
-  id = "";
-
-  creditHours = 0;
+  credit_hours = 0;
 
   description = "";
 
-  prerequisites = [];
+  prerequisites: string[] = [];
 
-  learningOutcomes = [];
+  learning_outcomes: string[] = [];
 
-  programOutcomes = [];
+  program_outcomes: (string | number)[][] = [];
 
-  baccalaureateCharacteristics = [];
+  baccalaureate_characteristics: (string | number)[][] = [];
 
-  textbooks = [];
+  textbooks: string[] = [];
 
-  modules = [];
+  modules: string[] = [];
 }

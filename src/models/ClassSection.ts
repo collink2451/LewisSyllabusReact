@@ -2,25 +2,27 @@ import Class from "./Class";
 import Instructor from "./Instructor";
 
 export default class ClassSection {
-  id = "";
+  id = 0;
+
+  section_code = "";
 
   section = "";
 
   crn = "";
 
-  meetingDays = "";
+  meeting_days = "";
 
-  meetingTimes = "";
+  meeting_times = "";
 
-  finalExam = "";
+  final_exam = "";
 
-  meetingLocation = "";
+  meeting_location = "";
 
-  courseId = "";
+  course_id = 0;
+
+  instructor_id = 0;
 
   class: Class | undefined = undefined;
-
-  instructorId = "";
 
   instructor: Instructor | undefined = undefined;
 }

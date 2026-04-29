@@ -1,13 +1,13 @@
 export default class Instructor {
-  id = "";
+  id = 0;
 
   name = "";
 
-  officeHours = "";
+  office_hours = "";
 
   office = "";
 
-  appointmentInfo = "";
+  appointment_info = "";
 
   phone = "";
 

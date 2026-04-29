@@ -22,7 +22,7 @@ function SyllabusHeader({ section }: Readonly<SyllabusHeaderProps>) {
             <br />
             <b>{section?.class?.name}</b>
             <br />
-            <b>{section?.id}</b>
+            <b>{section?.section_code}</b>
             <br />
             <b>Syllabus</b>
           </h5>

@@ -30,8 +30,8 @@ function Home() {
           <h2>Available Lewis University Syllibi</h2>
           <ol>
             {sections.map((section) => (
-              <li key={section.id}>
-                <a href={`/syllabus/${section.id}`}>{section.id}</a>
+              <li key={section.section_code}>
+                <a href={`/syllabus/${section.section_code}`}>{section.section_code}</a>
               </li>
             ))}
           </ol>
