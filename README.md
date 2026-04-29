@@ -39,7 +39,7 @@ npm start
 
 The app will be available at `http://localhost:3000`.
 
-> The API base URL is configured in the source — update it to point to your local syllabus-server if needed.
+> The backend URL is configured via `REACT_APP_API_URL` — set it in a `.env` file if running the backend on a different host. Leave it empty to use relative URLs (same origin).
 
 ## Scripts
 
